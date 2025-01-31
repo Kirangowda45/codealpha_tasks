@@ -82,7 +82,7 @@
       const monthDiff = today.getMonth() - dob.getMonth();
       const dayDiff = today.getDate() - dob.getDate();
 
-      // Adjust age if the current month or day is before the birth month/day
+      
       if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
         age--;
       }
